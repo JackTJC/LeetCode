@@ -1,4 +1,4 @@
-package List.SingleLinkedList;
+package List;
 
 public class AddTwoNumbers {
 }
