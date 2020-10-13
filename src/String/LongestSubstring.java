@@ -1,5 +1,5 @@
 package String;
-
+//sliding-window algorithm
 public class LongestSubstring {
     public static void main(String[] args) {
         System.out.println(new Solution().lengthOfLongestSubstring("ckilbkd"));
