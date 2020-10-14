@@ -1,5 +1,5 @@
 //#3
-package String;
+package String_;
 
 //sliding-window algorithm
 public class LongestSubstring {

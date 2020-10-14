@@ -1,4 +1,4 @@
-package String;
+package String_;
 
 public class StringsAnagram {
     public static void main(String[] args) {

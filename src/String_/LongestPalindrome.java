@@ -1,4 +1,4 @@
-package String;
+package String_;
 //time limit exceeded
 public class LongestPalindrome {
 

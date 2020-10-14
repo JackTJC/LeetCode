@@ -1,4 +1,4 @@
-package String;
+package String_;
 //#1209
 public class RemoveAdjacentDuplicates {
     public static void main(String[] args) {
