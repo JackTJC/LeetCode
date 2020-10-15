@@ -11,6 +11,7 @@ public class RemoveAdjacentDuplicates {
                 String subString = s.substring(i,i+k);
                 if(Solution.isDuplicate(subString))
                 {
+                    //remove adjacent duplicate string in recursion
                     return new Solution().removeDuplicates(s.substring(0,i)+s.substring(i+k),k);
                 }
             }
