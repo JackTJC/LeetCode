@@ -11,14 +11,13 @@ public class BST2GST {
     static class Solution {
         static int sum;
         public TreeNode bstToGst(TreeNode root) {
-            //ldr
             sum=0;
             List<Integer> valList=new ArrayList<Integer>();
             Solution.rdl(root,valList);
-            Solution.ldrChange(root,valList);
+            Solution.rdlChange(root,valList);
             return root;
         }
-        //ldr transverse and get the value list
+        //rdl transverse and get the value list in descending order
         static void rdl(TreeNode root,List<Integer> valList)
         {
             if(root==null)return;
@@ -28,16 +27,17 @@ public class BST2GST {
             if(root.left!=null)
                 Solution.rdl(root.left,valList);
         }
-        static void ldrChange(TreeNode root,List<Integer> valList)
+        //update the value from the ascending value list
+        static void rdlChange(TreeNode root,List<Integer> valList)
         {
             if(root==null)return;
             if(root.right!=null)
-                Solution.ldrChange(root.right,valList);
+                Solution.rdlChange(root.right,valList);
             Solution.sum+=valList.get(0);
             valList.remove(0);
             root.val=Solution.sum;
             if(root.left!=null)
-                Solution.ldrChange(root.left,valList);
+                Solution.rdlChange(root.left,valList);
         }
     }
 }

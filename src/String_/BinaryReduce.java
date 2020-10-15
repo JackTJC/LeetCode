@@ -12,6 +12,8 @@ public class BinaryReduce {
             char [] cArr=s.toCharArray();
             for (int i=s.length()-1;i>0;)
             {
+                //make ***0000 -> ***____
+                //* must be 1
                 while(cArr[i]=='0')
                 {
                     count++;
@@ -19,8 +21,10 @@ public class BinaryReduce {
                     if(i==0)
                         break;
                 }
+                //when reach to the first position, we can get the result directly
                 if(i==0)
                     break;
+                //make ***0111 -> ***1___
                 while (cArr[i]=='1')
                 {
                     count++;

@@ -15,6 +15,7 @@ public class ReconstructArray {
             for(int i:colsum)
             {
 
+                //value is 2, so this position must be 1
                 if(i==2)
                 {
                     up.add(1);
@@ -27,6 +28,7 @@ public class ReconstructArray {
                 return new ArrayList<List<Integer>>();
             for(int i=0;i<up.size();i++)
             {
+                //use greedy algorithm, until this row's sum reach to upper value
                 if(colsum[i]==1)
                 {
                     if(count>=upper)

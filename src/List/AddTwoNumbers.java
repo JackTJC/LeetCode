@@ -9,6 +9,7 @@ public class AddTwoNumbers {
             int cout=0;
             ListNode cur3=new ListNode();
             ListNode result=cur3;
+            //use fully add algorithm
             while(cur1!=null||cur2!=null)
             {
                 int val1,val2;
@@ -32,16 +33,6 @@ public class AddTwoNumbers {
         }
     }
 }
-
-
-// Definition for singly-linked list.
-class ListNode {
-     int val;
-     ListNode next;
-     ListNode() {}
-     ListNode(int val) { this.val = val; }
-     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- }
 
 
 
