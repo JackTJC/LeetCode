@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.logging.Level;
 
 //#1361
+//time exceed
 public class ValidateTree {
     public static void main(String[] args) {
         new Solution().validateBinaryTreeNodes(4,new int[]{3,-1,1,-1},new int[]{-1,-1,0,-1});
