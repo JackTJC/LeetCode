@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d756dc56-cf03-49ec-a3d2-88ad729f5151" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BackTrack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackTrack/lastRemain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/leastRevise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/leastAscii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Greedy/MinArrow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Greedy/MinSetSize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/parseInt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/ValidSearchTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/sufficientSubTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackTrack/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/BackTrack/PowerSet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/BackTrack/TilesPrint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/MinDeletedString.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +42,29 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.leastRevise">
+  <component name="RunManager" selected="Python.leastAscii">
+    <configuration name="MinArrow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Greedy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Greedy/MinArrow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="QuickSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lastRemain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="leastAscii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,12 +117,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BackTrack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BackTrack/lastRemain.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/leastAscii.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,35 +153,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="minSumLength" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/minSumLength.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.leastAscii" />
+        <item itemvalue="Python.MinArrow" />
         <item itemvalue="Python.leastRevise" />
         <item itemvalue="Python.demo" />
         <item itemvalue="Python.QuickSort" />
-        <item itemvalue="Python.lastRemain" />
-        <item itemvalue="Python.minSumLength" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +179,11 @@
       <workItem from="1605170462020" duration="606000" />
       <workItem from="1605194259223" duration="1134000" />
       <workItem from="1605230788349" duration="1643000" />
-      <workItem from="1605284947841" duration="372000" />
+      <workItem from="1605284947841" duration="708000" />
+      <workItem from="1605350840745" duration="1281000" />
+      <workItem from="1605357661965" duration="922000" />
+      <workItem from="1605427221665" duration="2398000" />
+      <workItem from="1605442469807" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="2020/11/11">
       <created>1605107276195</created>
@@ -182,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605107276195</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2020/11/14">
+      <created>1605285405607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605285405607</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,45 +207,46 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020/11/11" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/11/11" />
+    <MESSAGE value="2020/11/14" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/11/14" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1605107274782">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1605285404580">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1605107274782" />
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1605232226406">
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1605285404580" />
+    <state width="1237" height="303" key="GridCell.Tab.0.bottom" timestamp="1605434504445">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1605232226406" />
-    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1605232226406">
+    <state width="1237" height="303" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1605434504445" />
+    <state width="1237" height="303" key="GridCell.Tab.0.center" timestamp="1605434504445">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1605232226406" />
-    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1605232226406">
+    <state width="1237" height="303" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1605434504445" />
+    <state width="1237" height="303" key="GridCell.Tab.0.left" timestamp="1605434504445">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1605232226406" />
-    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1605232226406">
+    <state width="1237" height="303" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1605434504445" />
+    <state width="1237" height="303" key="GridCell.Tab.0.right" timestamp="1605434504445">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1605232226406" />
-    <state width="1222" height="299" key="GridCell.Tab.1.bottom" timestamp="1605195395854">
+    <state width="1237" height="303" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1605434504445" />
+    <state width="1237" height="303" key="GridCell.Tab.1.bottom" timestamp="1605434504445">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1222" height="299" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1605195395854" />
-    <state width="1222" height="299" key="GridCell.Tab.1.center" timestamp="1605195395854">
+    <state width="1237" height="303" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1605434504445" />
+    <state width="1237" height="303" key="GridCell.Tab.1.center" timestamp="1605434504445">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1222" height="299" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1605195395854" />
-    <state width="1222" height="299" key="GridCell.Tab.1.left" timestamp="1605195395854">
+    <state width="1237" height="303" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1605434504445" />
+    <state width="1237" height="303" key="GridCell.Tab.1.left" timestamp="1605434504445">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1222" height="299" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1605195395854" />
-    <state width="1222" height="299" key="GridCell.Tab.1.right" timestamp="1605195395854">
+    <state width="1237" height="303" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1605434504445" />
+    <state width="1237" height="303" key="GridCell.Tab.1.right" timestamp="1605434504445">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1222" height="299" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1605195395854" />
+    <state width="1237" height="303" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1605434504445" />
     <state width="647" height="367" key="XDebugger.FullValuePopup" timestamp="1605014265669">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -249,20 +267,16 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="[i for i in arr if i &lt; arr[0]]" language="Python" />
-        <watch expression="[i for i in arr if i &gt;= arr[0]]" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$QuickSort.coverage" NAME="QuickSort Coverage Results" MODIFIED="1605195376594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode$minSumLength.coverage" NAME="minSumLength Coverage Results" MODIFIED="1605102140864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
-    <SUITE FILE_PATH="coverage/leetcode$leastRevise.coverage" NAME="leastRevise Coverage Results" MODIFIED="1605285313862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
+    <SUITE FILE_PATH="coverage/leetcode$leastRevise.coverage" NAME="leastRevise Coverage Results" MODIFIED="1605285373653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
     <SUITE FILE_PATH="coverage/leetcode$lastRemain.coverage" NAME="lastRemain Coverage Results" MODIFIED="1605146313255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BackTrack" />
     <SUITE FILE_PATH="coverage/leetcode$triangle.coverage" NAME="triangle Coverage Results" MODIFIED="1605011515522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
     <SUITE FILE_PATH="coverage/leetcode$demo.coverage" NAME="demo Coverage Results" MODIFIED="1605232226393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/leetcode$MinArrow.coverage" NAME="MinArrow Coverage Results" MODIFIED="1605351507364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/leetcode$smallestSubstring.coverage" NAME="smallestSubstring Coverage Results" MODIFIED="1605096182035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/String" />
+    <SUITE FILE_PATH="coverage/leetcode$leastAscii.coverage" NAME="leastAscii Coverage Results" MODIFIED="1605427286337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
   </component>
 </project>
