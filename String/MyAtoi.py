@@ -7,7 +7,7 @@ class Solution:
         i = 0
         # TODO 去除空格
         while i <= len(s) - 1 and s[i] == ' ':
-            i += 1;
+            i += 1
 
         # TODO 获得符号
         sign = 1  # 1 表示正数 0表示负数
