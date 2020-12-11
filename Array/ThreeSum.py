@@ -1,43 +1,21 @@
-from typing import List
-
-
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        if len(nums) < 3:
-            return []
-
-        def binarySearch(nums, begin, end, target):
-            while begin <= end:
-                mid = int((begin + end) / 2)
-                if nums[mid] < target:
-                    begin = mid + 1
-                elif nums[mid] > target:
-                    end = mid - 1
-                else:
-                    return True
-            return False
-
-        ans = []
         nums.sort()
-        left = 0
-        right = len(nums) - 1
-        while left < right:
-            target = -(nums[left] + nums[right])
-            if nums[left + 1] <= target <= nums[right - 1]:
-                res = binarySearch(nums, left + 1, right - 1, target)
-                if res:
-                    ans.append([nums[left], target, nums[right]])
-                while nums[left] == nums[left + 1] and nums[right - 1] == nums[right] and left < right:
-                    left += 1
-                    right -= 1
-
-            else:
-                if target < nums[left + 1]:
-                    right -= 1
-                if target > nums[right - 1]:
-                    left += 1
+        first = 0
+        ans = []
+        for first in range(len(nums)):
+            third = len(nums) - 1
+            if first > 0 and nums[first] == nums[first - 1]:
+                continue  # 跳过相同的
+            target = -nums[first]
+            for second in range(first + 1, len(nums)):
+                if second > first + 1 and nums[second] == nums[second - 1]:
+                    continue  # 跳过相同的
+                while second < third and nums[second] + nums[third] > target:
+                    third -= 1
+                if third == second:
+                    break
+                if nums[second] + nums[third] == target:
+                    ans.append([nums[first], nums[second], nums[third]])
         return ans
 
-
-if __name__ == '__main__':
-    Solution.threeSum(None, [1, 2, -2, -1])
