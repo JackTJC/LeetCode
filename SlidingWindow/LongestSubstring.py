@@ -22,4 +22,3 @@ class Solution:
 if __name__ == '__main__':
     res = Solution.lengthOfLongestSubstring(None, "abcabcbb")
     print(res)
-[[0,-1,1],[0,1,-1],[1,-1,0],[1,0,-1],[[0,1,2,-4,-1],-1,-1],[-1,-1,2],[-1,0,1],[-1,1,0]]

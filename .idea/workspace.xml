@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d756dc56-cf03-49ec-a3d2-88ad729f5151" name="Default Changelist" comment="2020/12/21">
-      <change afterPath="$PROJECT_DIR$/BackTrack/Combination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DoublePointer/RemoveOneElement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dfs/SerachWord.py" afterDir="false" />
+    <list default="true" id="d756dc56-cf03-49ec-a3d2-88ad729f5151" name="Default Changelist" comment="2020/12/22">
+      <change afterPath="$PROJECT_DIR$/DP/MaxPublicSubstring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dfs/NumOfIsland.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/AddOne.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/ColorClassify.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/ColorClassify.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/DeleteOne.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/FourSum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/RotateImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/RotateImage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/SmallestK.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/ThreeNearest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/ThreeNearest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/ThreeSum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackTrack/CombinationSum2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackTrack/GenerateParenthesis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackTrack/PowerSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/BackTrack/PowerSet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackTrack/SearchWord.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackTrack/TilesPrint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackTrack/lastRemain.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/sort/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/MaxPublicSeq.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/MaxPublicSeq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Greedy/CostAndGas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy/CostAndGas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindow/LongestSubstring.py" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindow/LongestSubstring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/sufficientSubTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/sufficientSubTree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +50,7 @@
       <recent name="C:\Users\JackTian\iCloudDrive\leetcode\SlidingWindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SmallestK">
+  <component name="RunManager" selected="Python.NumOfIsland">
     <configuration name="HeapSort" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MaxPublicSeq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxPublicSubstring" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +86,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/MaxPublicSeq.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/MaxPublicSubstring.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Multiply" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NumOfIsland" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,12 +103,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Math" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dfs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Math/Multiply.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dfs/NumOfIsland.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NumOfIsland" />
+        <item itemvalue="Python.MaxPublicSubstring" />
         <item itemvalue="Python.SmallestK" />
         <item itemvalue="Python.RadixSort" />
         <item itemvalue="Python.postOrderTransverse" />
-        <item itemvalue="Python.MaxPublicSeq" />
-        <item itemvalue="Python.Multiply" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +244,10 @@
       <workItem from="1608357300418" duration="2091000" />
       <workItem from="1608370555524" duration="10000" />
       <workItem from="1608526937110" duration="3540000" />
-      <workItem from="1608616380060" duration="1805000" />
+      <workItem from="1608616380060" duration="3159000" />
+      <workItem from="1608619708982" duration="974000" />
+      <workItem from="1608649516473" duration="45000" />
+      <workItem from="1608964010946" duration="229000" />
     </task>
     <task id="LOCAL-00001" summary="2020/11/11">
       <created>1605107276195</created>
@@ -328,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608534089421</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2020/12/22">
+      <created>1608618195900</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608618195900</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,18 +355,15 @@
     <MESSAGE value="2020/12/11" />
     <MESSAGE value="2020/12/18" />
     <MESSAGE value="2020/12/21" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/12/21" />
+    <MESSAGE value="2020/12/22" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/12/22" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/String/ReMatch.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="0&lt;=y&lt;len(mark[0])" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$HeapSort.coverage" NAME="HeapSort Coverage Results" MODIFIED="1607762451681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BaseAlgorithm/sort" />
@@ -380,6 +375,7 @@
     <SUITE FILE_PATH="coverage/leetcode$demo.coverage" NAME="demo Coverage Results" MODIFIED="1605232226393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode$Multiply.coverage" NAME="Multiply Coverage Results" MODIFIED="1607784352895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Math" />
     <SUITE FILE_PATH="coverage/leetcode$RotateImage.coverage" NAME="RotateImage Coverage Results" MODIFIED="1607484148955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
+    <SUITE FILE_PATH="coverage/leetcode$NumOfIsland.coverage" NAME="NumOfIsland Coverage Results" MODIFIED="1608964078386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dfs" />
     <SUITE FILE_PATH="coverage/leetcode$ThreeSum.coverage" NAME="ThreeSum Coverage Results" MODIFIED="1607241628742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
     <SUITE FILE_PATH="coverage/leetcode$lastRemain.coverage" NAME="lastRemain Coverage Results" MODIFIED="1605146313255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BackTrack" />
     <SUITE FILE_PATH="coverage/leetcode$leastRevise.coverage" NAME="leastRevise Coverage Results" MODIFIED="1605285373653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
@@ -394,6 +390,7 @@
     <SUITE FILE_PATH="coverage/leetcode$Divide.coverage" NAME="Divide Coverage Results" MODIFIED="1607777752836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Math" />
     <SUITE FILE_PATH="coverage/leetcode$DeleteOne.coverage" NAME="DeleteOne Coverage Results" MODIFIED="1607314829823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
     <SUITE FILE_PATH="coverage/leetcode$CombinationSum2.coverage" NAME="CombinationSum2 Coverage Results" MODIFIED="1607484143092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BackTrack" />
+    <SUITE FILE_PATH="coverage/leetcode$MaxPublicSubstring.coverage" NAME="MaxPublicSubstring Coverage Results" MODIFIED="1608619242093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
     <SUITE FILE_PATH="coverage/leetcode$SmallestK.coverage" NAME="SmallestK Coverage Results" MODIFIED="1608617087875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
     <SUITE FILE_PATH="coverage/leetcode$MaxPublicSeq.coverage" NAME="MaxPublicSeq Coverage Results" MODIFIED="1608191704621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
     <SUITE FILE_PATH="coverage/leetcode$ChangePairs.coverage" NAME="ChangePairs Coverage Results" MODIFIED="1607313214691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinkedList" />
