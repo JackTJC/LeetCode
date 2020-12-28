@@ -28,10 +28,10 @@ class Solution:
                     total = nums[first] + nums[second] + nums[third] + nums[forth]
                     if total == target:
                         ans.append([nums[first], nums[second], nums[third], nums[forth]])
-                        while third < forth and nums[third + 1] == nums[third]:# 去重找到下一轮
+                        while third < forth and nums[third + 1] == nums[third]:  # 去重找到下一轮
                             third += 1
                         third += 1
-                        while forth > third and nums[forth - 1] == nums[forth]:# 去重找到下一轮
+                        while forth > third and nums[forth - 1] == nums[forth]:  # 去重找到下一轮
                             forth -= 1
                         forth -= 1
                     elif total < target:

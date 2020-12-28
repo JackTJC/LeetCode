@@ -1,5 +1,5 @@
 # Introduction
-This is my leetcode exercise recording, and the exercise is being implemented by Java.
+一些经典的LeetCode题目,主要由python完成
 # Contents
 ## [Array](Array)
 - [#75](Array/ColorClassify.py)颜色分类(荷兰国旗问题)
@@ -15,8 +15,8 @@ This is my leetcode exercise recording, and the exercise is being implemented by
 - [LFU](BaseAlgorithm/ScheduleAlgorithm/LFU.py)
 - [LRU](BaseAlgorithm/ScheduleAlgorithm/LRUCache.py)
 ### 排序算法
-- [heap sort](BaseAlgorithm/sort/HeapSort.py) Top K 问题
-- [merge sort](BaseAlgorithm/sort/MergeSort.py) # 4寻找中位数
+- [heap sort](BaseAlgorithm/sort/HeapSort.py) 堆排序:Top K 问题
+- [merge sort](BaseAlgorithm/sort/MergeSort.py) 归并排序:#4寻找中位数
 - [quick sort](BaseAlgorithm/sort/QuickSort.py) 快速排序
 - [radix sort](BaseAlgorithm/sort/RadixSort.py) 基数排序
 ### 字符串算法
@@ -32,16 +32,24 @@ This is my leetcode exercise recording, and the exercise is being implemented by
 ## [DoublePointer](DoublePointer)
 - [#27](DoublePointer/RemoveOneElement.py) 移除元素
 ## [Dynamic Programing](DP)
-- [最大公共子序列](DP/MaxPublicSeq.py)
-- [最大公共子串](DP/MaxPublicSubstring.py)
-- [编辑距离](DP/MinDeletedString.py)
+- [最长公共子序列](DP/MaxPublicSeq.py)
+- [最长公共子串](DP/MaxPublicSubstring.py)
+- [编辑距离](DP/EditDistance.py)
+- [#712](DP/leastAscii.py) 最小Ascii删除距离
+- [#5](DP/LongestPalindrome.py) 最长回文串
+- [#120](DP/triangle.py) 三角形最短路径和
 ## [Greedy](Greedy)
+- [#134](Greedy/CostAndGas.py) 油耗
+
 ## [Hash Table](HashTable)
 ## [LinkedList](LinkedList)
 - [#206](LinkedList/Reverse.py)反转链表（两种解法）
 - [#206进阶](LinkedList/ReverseKList.py) K组反转链表
 - [#141](LinkedList/HasCycle.py) 链表是否有环
 ## [Math](Math)
+- [#452](Math/MinArrow.py) 最少量的箭引爆气球
+- [#29](Math/Divide.py) 两数相除
+- [#43](Math/Multiply.py) 字符串相乘
 ## [SlidingWindow](SlidingWindow)
 - [#3](SlidingWindow/LongestSubstring.py) 无重复字符最长子串
 ## [Stack](Stack)
