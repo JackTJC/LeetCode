@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d756dc56-cf03-49ec-a3d2-88ad729f5151" name="Default Changelist" comment="2020/12/22">
-      <change afterPath="$PROJECT_DIR$/Array/FourSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaseAlgorithm/Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaseAlgorithm/str/KMP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaseAlgorithm/tree/PrefixTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/MergeKList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/ReverseKList.py" afterDir="false" />
+    <list default="true" id="d756dc56-cf03-49ec-a3d2-88ad729f5151" name="Default Changelist" comment="2020/12/26">
+      <change afterPath="$PROJECT_DIR$/DoublePointer/RainWater.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/Graph/IsDAG.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaseAlgorithm/Graph/IsDAG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/sort/MergeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaseAlgorithm/sort/MergeSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/ThreeNearest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/LatgestContainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DoublePointer/LatgestContainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/LFU.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaseAlgorithm/ScheduleAlgorithm/LFU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/LRUCache.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaseAlgorithm/ScheduleAlgorithm/LRUCache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfs/NumOfIsland.py" beforeDir="false" afterPath="$PROJECT_DIR$/dfs/NumOfIsland.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -48,11 +49,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JackTian\iCloudDrive\leetcode\DoublePointer" />
+      <recent name="C:\Users\JackTian\iCloudDrive\leetcode\BaseAlgorithm\ScheduleAlgorithm" />
       <recent name="C:\Users\JackTian\iCloudDrive\leetcode\BaseAlgorithm" />
       <recent name="C:\Users\JackTian\iCloudDrive\leetcode\SlidingWindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ReverseKList">
+  <component name="RunManager" selected="Python.RainWater">
     <configuration name="FourSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NumOfIsland" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RainWater" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,12 +130,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dfs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dfs/NumOfIsland.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\JackTian\iCloudDrive\leetcode\DoublePointer\RainWater.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RainWater" />
         <item itemvalue="Python.ReverseKList" />
         <item itemvalue="Python.FourSum" />
         <item itemvalue="Python.Test" />
         <item itemvalue="Python.KMP" />
-        <item itemvalue="Python.NumOfIsland" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +256,8 @@
       <workItem from="1608972152861" duration="303000" />
       <workItem from="1608981983544" duration="2153000" />
       <workItem from="1609045561991" duration="814000" />
-      <workItem from="1609047612273" duration="2082000" />
+      <workItem from="1609047612273" duration="2276000" />
+      <workItem from="1609126033398" duration="2912000" />
     </task>
     <task id="LOCAL-00001" summary="2020/11/11">
       <created>1605107276195</created>
@@ -332,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608618195900</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2020/12/26">
+      <created>1609050322812</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609050322812</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,11 +373,21 @@
     <MESSAGE value="2020/12/18" />
     <MESSAGE value="2020/12/21" />
     <MESSAGE value="2020/12/22" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/12/22" />
+    <MESSAGE value="2020/12/26" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/12/26" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="stack[1:-1]" language="Python" />
+        <watch expression="(stack[-1]-stack[0]-1)* min(stack[0], stack[-1])" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$KMP.coverage" NAME="KMP Coverage Results" MODIFIED="1608983109919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BaseAlgorithm/str" />
     <SUITE FILE_PATH="coverage/leetcode$HeapSort.coverage" NAME="HeapSort Coverage Results" MODIFIED="1607762451681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BaseAlgorithm/sort" />
+    <SUITE FILE_PATH="coverage/leetcode$RainWater.coverage" NAME="RainWater Coverage Results" MODIFIED="1609126419282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stack" />
     <SUITE FILE_PATH="coverage/leetcode$SearchWord.coverage" NAME="SearchWord Coverage Results" MODIFIED="1607572205248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BackTrack" />
     <SUITE FILE_PATH="coverage/leetcode$RadixSort.coverage" NAME="RadixSort Coverage Results" MODIFIED="1608533627611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BaseAlgorithm/sort" />
     <SUITE FILE_PATH="coverage/leetcode$LRUCache.coverage" NAME="LRUCache Coverage Results" MODIFIED="1607576462902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructure" />
