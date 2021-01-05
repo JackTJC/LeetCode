@@ -37,24 +37,30 @@
 #             self.counter[key]=0
 
 import time
+
+
 class Data:
-    def __init__(self,val):
-        self.val=val
-        self.time=time.time()
+    def __init__(self, val):
+        self.val = val
+        self.time = time.time()
+
     def getVal(self):
-        self.time=time.time()
+        self.time = time.time()
         return self.val
-    def update(self,val):
-        self.time=time.time()
-        self.val=val
+
+    def update(self, val):
+        self.time = time.time()
+        self.val = val
+
+
 class LRUCache:
 
     def __init__(self, capacity: int):
-        self.cache=dict()
-        self.capacity=capacity
+        self.cache = dict()
+        self.capacity = capacity
 
     def get(self, key: int) -> int:
-        ret=self.cache.get(key)
+        ret = self.cache.get(key)
         if ret:
             return ret.getVal()
         else:
@@ -64,19 +70,19 @@ class LRUCache:
         if self.cache.get(key):
             self.cache[key].update(value)
             return
-        if len(self.cache)<self.capacity:
-            self.cache[key]=Data(value)
-            self.capacity+=1
+        if len(self.cache) < self.capacity:
+            self.cache[key] = Data(value)
+            self.capacity += 1
         else:
-            k=list(self.cache.keys())
-            sortKey=lambda x:self.cache[x].time
+            k = list(self.cache.keys())
+            sortKey = lambda x: self.cache[x].time
             k.sort(key=sortKey)
             del self.cache[k[0]]
-            self.cache[key]=Data(value)
+            self.cache[key] = Data(value)
 
 
 if __name__ == '__main__':
-    cache=LRUCache(2)
+    cache = LRUCache(2)
     cache.put(1, 1)
     cache.put(2, 2)
     cache.get(1)

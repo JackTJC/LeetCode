@@ -18,7 +18,7 @@ class Solution:
                 k = 2 * k + 1
             heap[i] = temp
 
-        # 维护一个大小为k的大
+        # 维护一个大小为k的大顶堆
         if k == 0:
             return []
         if k >= len(arr):

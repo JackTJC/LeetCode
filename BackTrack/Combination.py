@@ -8,18 +8,18 @@
 # 所有数字（包括 target）都是正整数。
 # 解集不能包含重复的组合。
 
-import copy
 from typing import List
 
-
 import copy
+
+
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        def backTrack(ans,ansList,candidates,target):
-            if target<0:
+        def backTrack(ans, ansList, candidates, target):
+            if target < 0:
                 return
-            if target==0:
-                ansCopy=copy.deepcopy(ans)
+            if target == 0:
+                ansCopy = copy.deepcopy(ans)
                 ansCopy.sort()
                 if ansCopy not in ansList:
                     ansList.append(ansCopy)
@@ -27,9 +27,10 @@ class Solution:
             # 递归搜索
             for number in candidates:
                 ans.append(number)
-                backTrack(ans,ansList,candidates,target-number)
+                backTrack(ans, ansList, candidates, target - number)
                 ans.pop()
-        ans=[]
-        ansList=[]
-        backTrack(ans,ansList,candidates,target)
+
+        ans = []
+        ansList = []
+        backTrack(ans, ansList, candidates, target)
         return ansList

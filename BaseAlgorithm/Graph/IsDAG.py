@@ -9,9 +9,9 @@ from typing import List
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        # 入度hash表
+        # 入度hash表,保存了入度的值
         indegree = {i: 0 for i in range(numCourses)}
-        # 邻接hash表
+        # 邻接hash表，保存了所有与之邻接的节点
         neighbor = {i: list() for i in range(numCourses)}
         for x, y in prerequisites:
             indegree[x] += 1
@@ -19,12 +19,14 @@ class Solution:
         while len(indegree) > 0:
             temp = []
             for k, v in indegree.items():
-                if v == 0:
+                if v == 0:  # 找到度为0的节点，对其邻接节点的度减1
                     temp.append(k)
                     for n in neighbor[k]:
                         indegree[n] -= 1
+            # 一轮遍历发现已经没有度为0的节点，返回false
             if len(temp) == 0:
                 return False
+            # 删除所有度为0的节点
             for t in temp:
                 del indegree[t]
         return True

@@ -1,5 +1,7 @@
 # Definition for a binary tree node.
-from  typing import List
+from typing import List
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -31,6 +33,7 @@ class Solution:
 
         return res
 
+
 if __name__ == '__main__':
-    root=TreeNode(1,TreeNode(2),TreeNode(3))
-    Solution.postorderTraversal(None,root)
+    root = TreeNode(1, TreeNode(2), TreeNode(3))
+    Solution.postorderTraversal(None, root)
