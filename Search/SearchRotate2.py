@@ -9,6 +9,7 @@ from typing import List
 
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
+        # 去除首位相等的元素,这样就不会导致区间判断错误
         while len(nums) > 1 and nums[0] == nums[-1]:
             nums.pop()
         n = len(nums)

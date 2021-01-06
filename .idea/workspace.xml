@@ -4,33 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d756dc56-cf03-49ec-a3d2-88ad729f5151" name="Default Changelist" comment="2020/12/29">
-      <change afterPath="$PROJECT_DIR$/BinarySearch/FindMin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch/SearchRotate2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/Rob.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/Rob2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/KthLargest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math/MaxRetangleArea.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/QueueImpStack.py" afterDir="false" />
+    <list default="true" id="d756dc56-cf03-49ec-a3d2-88ad729f5151" name="Default Changelist" comment="2021/01/06">
+      <change afterPath="$PROJECT_DIR$/Array/RotateArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/SellStock/SellStock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/SellStock/SellStock2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/SellStock/SellStock3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/SellStock/SellStock4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/SellStock/SellStockWithColdTime.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/SellStock/SellStockWithHandlingFee.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/SearchMin1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/SearchRotate1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/RotateImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/RotateImage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackTrack/Combination.py" beforeDir="false" afterPath="$PROJECT_DIR$/BackTrack/Combination.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/Graph/IsDAG.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaseAlgorithm/Graph/IsDAG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/ScheduleAlgorithm/LRUCache.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaseAlgorithm/ScheduleAlgorithm/LRUCache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/sort/HeapSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaseAlgorithm/sort/HeapSort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/sort/QuickSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaseAlgorithm/sort/QuickSort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/tree/postOrderTransverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaseAlgorithm/tree/postOrderTransverse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BitOperation/OnlyOneAppearance.py" beforeDir="false" afterPath="$PROJECT_DIR$/BitOperation/OnlyOneAppearance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoublePointer/LatgestContainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DoublePointer/LatgestContainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoublePointer/RainWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/DoublePointer/RainWater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Greedy/MinSetSize.py" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy/MinSetSize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Greedy/TaskAssignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy/TaskAssignment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/TwoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/TwoSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/AddTwoNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/AddTwoNumbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/ChangePairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/ChangePairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/PartitionList.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/PartitionList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/Reverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/Reverse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/ValidSearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/ValidSearchTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/ColorClassify.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/ColorClassify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/Graph/IsDAG.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/IsDAG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/ScheduleAlgorithm/LFU.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule/LFU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/ScheduleAlgorithm/LRUCache.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule/LRUCache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/sort/HeapSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/HeapSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/sort/MergeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/MergeSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/sort/QuickSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/QuickSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/sort/RadixSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/RadixSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/str/KMP.py" beforeDir="false" afterPath="$PROJECT_DIR$/String/KMP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/tree/PrefixTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/PrefixTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseAlgorithm/tree/postOrderTransverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/postOrderTransverse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/FindMin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search/SearchMin2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/SearchRotate2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search/SearchRotate2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BitOperation/OnlyOneAppearance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Math/OnlyOneAppearance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/EditDistance.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/EditDistance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/LIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/LIS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/LongestPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/LongestPalindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/MaxPublicSeq.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/MaxPublicSeq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/MaxPublicSubstring.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/MaxPublicSubstring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/ReMatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/ReMatch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/Rob.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/Rob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/Rob2.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/Rob2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/leastAscii.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/leastAscii.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoublePointer/LatgestContainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/LatgestContainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoublePointer/RainWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/RainWater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoublePointer/RemoveOneElement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/RemoveOneElement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/KthLargest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/KthLargest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindow/LongestSubstring.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/LongestSubstring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfs/NumOfIsland.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/NumOfIsland.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfs/SerachWord.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/SerachWord.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +58,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JupyterTrust" id="eb3af791-49cc-49bb-8d13-352db76c6266" />
   <component name="ProjectId" id="1k68E4clciiRNdAx9VwQlmNT5ht" />
@@ -54,6 +81,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -64,160 +92,22 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JackTian\iCloudDrive\leetcode\Array" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JackTian\iCloudDrive\leetcode\Math" />
-      <recent name="C:\Users\JackTian\iCloudDrive\leetcode\DoublePointer" />
-      <recent name="C:\Users\JackTian\iCloudDrive\leetcode\BaseAlgorithm\ScheduleAlgorithm" />
-      <recent name="C:\Users\JackTian\iCloudDrive\leetcode\BaseAlgorithm" />
-      <recent name="C:\Users\JackTian\iCloudDrive\leetcode\SlidingWindow" />
+      <recent name="C:\Users\JackTian\iCloudDrive\leetcode\Array" />
+      <recent name="C:\Users\JackTian\iCloudDrive\leetcode\Schedule" />
+      <recent name="C:\Users\JackTian\iCloudDrive\leetcode\String" />
+      <recent name="C:\Users\JackTian\iCloudDrive\leetcode\Graph" />
     </key>
-  </component>
-  <component name="RunManager" selected="Python.ContainDup3">
-    <configuration name="ContainDup3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/ContainDup3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FindMin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/FindMin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="HeapSort" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaseAlgorithm/sort" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\JackTian\iCloudDrive\leetcode\BaseAlgorithm\sort\HeapSort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchRotate2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/SearchRotate2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="WordDictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design/WordDictionary.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="smallestSubstring" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/smallestSubstring.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.ContainDup3" />
-        <item itemvalue="Python.SearchRotate2" />
-        <item itemvalue="Python.WordDictionary" />
-        <item itemvalue="Python.FindMin" />
-        <item itemvalue="Python.smallestSubstring" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -290,6 +180,8 @@
       <workItem from="1609643837142" duration="4022000" />
       <workItem from="1609651449166" duration="117000" />
       <workItem from="1609669677232" duration="5469000" />
+      <workItem from="1609829403826" duration="2226000" />
+      <workItem from="1609904855171" duration="7785000" />
     </task>
     <task id="LOCAL-00001" summary="2020/11/11">
       <created>1605107276195</created>
@@ -396,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609209026052</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2021/01/05">
+      <created>1609829703084</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609829703084</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,59 +328,15 @@
     <MESSAGE value="2020/12/26" />
     <MESSAGE value="2020/12/28" />
     <MESSAGE value="2020/12/29" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/12/29" />
+    <MESSAGE value="2021/01/05" />
+    <MESSAGE value="2021/01/06" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021/01/06" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="nums[i]" language="Python" />
+        <watch expression="s[i * lenPerWord:(i + 1) * lenPerWord]" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leetcode$KMP.coverage" NAME="KMP Coverage Results" MODIFIED="1608983109919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BaseAlgorithm/str" />
-    <SUITE FILE_PATH="coverage/leetcode$HeapSort.coverage" NAME="HeapSort Coverage Results" MODIFIED="1607762451681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BaseAlgorithm/sort" />
-    <SUITE FILE_PATH="coverage/leetcode$RainWater.coverage" NAME="RainWater Coverage Results" MODIFIED="1609126419282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stack" />
-    <SUITE FILE_PATH="coverage/leetcode$SearchWord.coverage" NAME="SearchWord Coverage Results" MODIFIED="1607572205248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BackTrack" />
-    <SUITE FILE_PATH="coverage/leetcode$FindMin.coverage" NAME="FindMin Coverage Results" MODIFIED="1609572983760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinarySearch" />
-    <SUITE FILE_PATH="coverage/leetcode$RadixSort.coverage" NAME="RadixSort Coverage Results" MODIFIED="1609221771061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BaseAlgorithm/sort" />
-    <SUITE FILE_PATH="coverage/leetcode$SearchRotate2.coverage" NAME="SearchRotate2 Coverage Results" MODIFIED="1609585461383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinarySearch" />
-    <SUITE FILE_PATH="coverage/leetcode$ContainDup3.coverage" NAME="ContainDup3 Coverage Results" MODIFIED="1609670905395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
-    <SUITE FILE_PATH="coverage/leetcode$LRUCache.coverage" NAME="LRUCache Coverage Results" MODIFIED="1609153083714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BaseAlgorithm/ScheduleAlgorithm" />
-    <SUITE FILE_PATH="coverage/leetcode$QuickSort.coverage" NAME="QuickSort Coverage Results" MODIFIED="1605195376594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/leetcode$AddOne.coverage" NAME="AddOne Coverage Results" MODIFIED="1607522710117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
-    <SUITE FILE_PATH="coverage/leetcode$demo.coverage" NAME="demo Coverage Results" MODIFIED="1605232226393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/leetcode$Multiply.coverage" NAME="Multiply Coverage Results" MODIFIED="1607784352895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Math" />
-    <SUITE FILE_PATH="coverage/leetcode$RotateImage.coverage" NAME="RotateImage Coverage Results" MODIFIED="1607484148955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
-    <SUITE FILE_PATH="coverage/leetcode$NumOfIsland.coverage" NAME="NumOfIsland Coverage Results" MODIFIED="1608964078386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dfs" />
-    <SUITE FILE_PATH="coverage/leetcode$ThreeSum.coverage" NAME="ThreeSum Coverage Results" MODIFIED="1607241628742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
-    <SUITE FILE_PATH="coverage/leetcode$lastRemain.coverage" NAME="lastRemain Coverage Results" MODIFIED="1605146313255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BackTrack" />
-    <SUITE FILE_PATH="coverage/leetcode$WordDictionary.coverage" NAME="WordDictionary Coverage Results" MODIFIED="1609582402554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design" />
-    <SUITE FILE_PATH="coverage/leetcode$leastRevise.coverage" NAME="leastRevise Coverage Results" MODIFIED="1605285373653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
-    <SUITE FILE_PATH="coverage/leetcode$FourSum.coverage" NAME="FourSum Coverage Results" MODIFIED="1609045629022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
-    <SUITE FILE_PATH="coverage/leetcode$ReverseKList.coverage" NAME="ReverseKList Coverage Results" MODIFIED="1609049054052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinkedList" />
-    <SUITE FILE_PATH="coverage/leetcode$LongestSubstring.coverage" NAME="LongestSubstring Coverage Results" MODIFIED="1607657040999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SlidingWindow" />
-    <SUITE FILE_PATH="coverage/leetcode$ColorClassify.coverage" NAME="ColorClassify Coverage Results" MODIFIED="1607571411250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
-    <SUITE FILE_PATH="coverage/leetcode$postOrderTransverse.coverage" NAME="postOrderTransverse Coverage Results" MODIFIED="1608357536688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BaseAlgorithm/tree" />
-    <SUITE FILE_PATH="coverage/leetcode$LatgestContainer.coverage" NAME="LatgestContainer Coverage Results" MODIFIED="1607236281709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
-    <SUITE FILE_PATH="coverage/leetcode$LongestPalindrome.coverage" NAME="LongestPalindrome Coverage Results" MODIFIED="1609147111804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
-    <SUITE FILE_PATH="coverage/leetcode$leastAscii.coverage" NAME="leastAscii Coverage Results" MODIFIED="1609143560103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
-    <SUITE FILE_PATH="coverage/leetcode$smallestSubstring.coverage" NAME="smallestSubstring Coverage Results" MODIFIED="1609224470337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/String" />
-    <SUITE FILE_PATH="coverage/leetcode$Divide.coverage" NAME="Divide Coverage Results" MODIFIED="1607777752836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Math" />
-    <SUITE FILE_PATH="coverage/leetcode$DeleteOne.coverage" NAME="DeleteOne Coverage Results" MODIFIED="1607314829823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
-    <SUITE FILE_PATH="coverage/leetcode$CombinationSum2.coverage" NAME="CombinationSum2 Coverage Results" MODIFIED="1607484143092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BackTrack" />
-    <SUITE FILE_PATH="coverage/leetcode$MaxPublicSubstring.coverage" NAME="MaxPublicSubstring Coverage Results" MODIFIED="1608619242093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
-    <SUITE FILE_PATH="coverage/leetcode$SmallestK.coverage" NAME="SmallestK Coverage Results" MODIFIED="1608617087875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
-    <SUITE FILE_PATH="coverage/leetcode$MaxPublicSeq.coverage" NAME="MaxPublicSeq Coverage Results" MODIFIED="1608191704621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
-    <SUITE FILE_PATH="coverage/leetcode$ChangePairs.coverage" NAME="ChangePairs Coverage Results" MODIFIED="1607313214691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinkedList" />
-    <SUITE FILE_PATH="coverage/leetcode$MinArrow.coverage" NAME="MinArrow Coverage Results" MODIFIED="1605351507364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
-    <SUITE FILE_PATH="coverage/leetcode$IsValid.coverage" NAME="IsValid Coverage Results" MODIFIED="1607244685830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stack" />
-    <SUITE FILE_PATH="coverage/leetcode$ThreeNearest.coverage" NAME="ThreeNearest Coverage Results" MODIFIED="1607770632367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Array" />
-    <SUITE FILE_PATH="coverage/leetcode$triangle.coverage" NAME="triangle Coverage Results" MODIFIED="1605011515522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
-    <SUITE FILE_PATH="coverage/leetcode$LFU.coverage" NAME="LFU Coverage Results" MODIFIED="1607578696584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructure" />
-    <SUITE FILE_PATH="coverage/leetcode$minSumLength.coverage" NAME="minSumLength Coverage Results" MODIFIED="1605102140864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
-    <SUITE FILE_PATH="coverage/leetcode$ReMatch.coverage" NAME="ReMatch Coverage Results" MODIFIED="1607235962827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/String" />
-    <SUITE FILE_PATH="coverage/leetcode$ZTrans.coverage" NAME="ZTrans Coverage Results" MODIFIED="1607175809626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/String" />
-    <SUITE FILE_PATH="coverage/leetcode$Test.coverage" NAME="Test Coverage Results" MODIFIED="1608984956934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BaseAlgorithm" />
   </component>
 </project>

@@ -22,4 +22,5 @@ class Solution:
 
 
 if __name__ == '__main__':
+    print("hello")
     Solution.sortColors(None, [1, 0])
