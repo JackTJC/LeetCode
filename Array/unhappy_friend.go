@@ -1,4 +1,4 @@
-package Array
+package array
 
 func unhappyFriends(n int, preferences [][]int, pairs [][]int) int {
 	ret := 0

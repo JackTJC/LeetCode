@@ -1,10 +1,4 @@
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println(canConstruct("aa", "aab"))
-}
+package string_op
 
 func canConstruct(ransomNote string, magazine string) bool {
 	s1 := []byte(ransomNote)

@@ -1,10 +1,5 @@
-package main
+package string_op
 
-import "fmt"
-
-func main() {
-	fmt.Println(firstUniqChar("aaabbc"))
-}
 func firstUniqChar(s string) int {
 	m := make(map[byte]int)
 	sByte := []byte(s)
