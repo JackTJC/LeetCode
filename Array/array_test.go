@@ -1,6 +1,10 @@
 package array
 
-import "testing"
+import (
+	"fmt"
+	"sort"
+	"testing"
+)
 
 func TestFR(t *testing.T) {
 	t.Log(findRepeatNumber([]int{3, 2, 1, 0, 0}))
@@ -28,4 +32,15 @@ func TestMN(t *testing.T) {
 	t.Log(missingNumber([]int{0}))
 	t.Log(missingNumber([]int{1}))
 	t.Log(missingNumber([]int{1, 2}))
+}
+
+func TestMyMap(t *testing.T) {
+	m := &MyMap{}
+	data := []int{100, 45, 67, 23, 45, 64, 76, 78, 98, 44, 23, 44, 55, 66, 77, 100}
+	m.build(data)
+	m.transverse()
+	sort.Slice(data, func(i, j int) bool {
+		return data[i] < data[j]
+	})
+	fmt.Println(data)
 }

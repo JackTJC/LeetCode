@@ -19,3 +19,7 @@ func TestRV(t *testing.T) {
 	// t.Log(reverseVowels(" "))
 	t.Log(reverseVowels("hello"))
 }
+
+func TestRsk(t *testing.T) {
+	t.Log(reverseStr("abcdefg", 2))
+}
