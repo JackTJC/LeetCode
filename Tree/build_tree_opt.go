@@ -6,23 +6,25 @@ type treeBuilder struct {
 
 //四个参数分别代表列表范围
 func (tb *treeBuilder) run(pl, pr, il, ir int) *TreeNode {
-	if pl == pr {
-		return nil
-	}
-	var cutIdx int
-	for i := il; i < ir; i++ {
-		if tb.inorder[i] == tb.preorder[pl] {
-			cutIdx = i
-		}
-	}
-	ret := &TreeNode{
-		Val: tb.preorder[pl],
-	}
-	lil, lir, ril, rir = il, il+cutIdx, il+cutIdx+1, ir
-	llp
-	ret.Left = tb.run()
-	ret.Right = tb.run()
-	return ret
+	return nil
+	// if pl == pr {
+
+	// 	return nil
+	// }
+	// var cutIdx int
+	// for i := il; i < ir; i++ {
+	// 	if tb.inorder[i] == tb.preorder[pl] {
+	// 		cutIdx = i
+	// 	}
+	// }
+	// ret := &TreeNode{
+	// 	Val: tb.preorder[pl],
+	// }
+	// lil, lir, ril, rir = il, il+cutIdx, il+cutIdx+1, ir
+	// llp
+	// ret.Left = tb.run()
+	// ret.Right = tb.run()
+	// return ret
 }
 
 func buildTreeOpt(preorder []int, inorder []int) *TreeNode {
