@@ -1,4 +1,4 @@
-package DynamicPrograming
+package dp
 
 func countBits(n int) []int {
 	if n == 0 {

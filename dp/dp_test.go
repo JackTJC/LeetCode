@@ -1,4 +1,4 @@
-package DynamicPrograming
+package dp
 
 import (
 	"testing"
