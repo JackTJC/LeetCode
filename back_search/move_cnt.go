@@ -1,4 +1,4 @@
-package dfs
+package backtrack_search
 
 func movingCount(m int, n int, k int) int {
 	visited := make([][]bool, m)

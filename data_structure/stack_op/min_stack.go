@@ -1,4 +1,4 @@
-package min_stack
+package stack_op
 
 /*
 剑指 Offer 30. 包含min函数的栈
@@ -11,7 +11,7 @@ type MinStack struct {
 }
 
 /** initialize your data structure here. */
-func Constructor() MinStack {
+func Constructor1() MinStack {
 	return MinStack{
 		arr: []int{},
 		min: 0,

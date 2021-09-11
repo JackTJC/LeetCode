@@ -1,4 +1,4 @@
-package dfs
+package backtrack_search
 
 import "testing"
 

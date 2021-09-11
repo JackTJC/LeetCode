@@ -1,4 +1,4 @@
-package search
+package backtrack_search
 
 import "testing"
 

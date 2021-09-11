@@ -1,4 +1,4 @@
-package search
+package backtrack_search
 
 func findNumberIn2DArray(matrix [][]int, target int) bool {
 	m := len(matrix)

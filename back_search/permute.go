@@ -1,4 +1,4 @@
-package backtrack
+package backtrack_search
 
 type permuter struct {
 	nums     []int
@@ -28,4 +28,5 @@ func permute(nums []int) [][]int {
 			cur = append(cur, nums[j])
 		}
 	}
+	return ret
 }

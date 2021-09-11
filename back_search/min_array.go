@@ -1,4 +1,4 @@
-package search
+package backtrack_search
 
 func minArray(numbers []int) int {
 	left, right := 0, len(numbers)-1
