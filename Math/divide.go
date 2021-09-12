@@ -1,4 +1,4 @@
-package Math
+package math
 
 func divide(a int, b int) int {
 	ret := int(0)

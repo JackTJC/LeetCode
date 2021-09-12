@@ -1,4 +1,4 @@
-package Math
+package math
 
 func addBinary(a string, b string) string {
 	Cout := 0 //进位
