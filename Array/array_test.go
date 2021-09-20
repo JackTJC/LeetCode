@@ -44,3 +44,7 @@ func TestMyMap(t *testing.T) {
 	})
 	fmt.Println(data)
 }
+
+func TestMSA(t *testing.T) {
+	minSubArrayLen(7, []int{2, 3, 1, 2, 4, 3})
+}

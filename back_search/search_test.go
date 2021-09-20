@@ -25,3 +25,7 @@ func TestSearch2D(t *testing.T) {
 	t.Log(findNumberIn2DArray(arr, 15))
 	t.Log(findNumberIn2DArray(arr, 18))
 }
+
+func TestComSum(t *testing.T) {
+	combinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8)
+}
