@@ -1,8 +1,14 @@
-package array
+package slidewindow
 
 import "strings"
 
 func lengthOfLongestSubstring(s string) int {
+	max := func(i, j int) int {
+		if i > j {
+			return i
+		}
+		return j
+	}
 	n := len(s)
 	l, r := 0, 0
 	ret := 0
