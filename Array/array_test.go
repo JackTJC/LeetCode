@@ -44,3 +44,15 @@ func TestMyMap(t *testing.T) {
 	})
 	fmt.Println(data)
 }
+
+func TestSpiral(t *testing.T) {
+	arr1 := [][]int{
+		{1, 2, 3, 4},
+		{5, 6, 7, 8},
+		{9, 10, 11, 12},
+	}
+	arr2 := append(arr1, []int{13, 14, 15, 16})
+	_ = spiralOrder(arr2)
+	res1 := spiralOrder(arr1)
+	t.Log(res1)
+}
