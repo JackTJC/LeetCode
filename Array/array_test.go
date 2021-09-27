@@ -56,3 +56,7 @@ func TestSpiral(t *testing.T) {
 	res1 := spiralOrder(arr1)
 	t.Log(res1)
 }
+
+func TestDengcha(t *testing.T) {
+	longestArithSeqLength([]int{3, 6, 9, 12})
+}
