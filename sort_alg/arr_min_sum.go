@@ -13,4 +13,5 @@ func arrMinSum(arr []int) int {
 			}
 		}
 	}
+	return 0
 }
