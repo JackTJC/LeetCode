@@ -10,8 +10,8 @@ public class Solution {
         n2.next=n3;
         n3.next=null;
         Solution o = new Solution();
-        o.reverseList(n1);
-        ListNode p  = n1;
+        ListNode ret = o.reverseList(n1);
+        ListNode p  = ret;
         while(p!=null){
             System.out.println(p.val);
             System.out.println("->");
