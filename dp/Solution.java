@@ -1,9 +1,9 @@
 import java.util.Arrays;
 
 public class Solution {
-    /* 
-    最长上升子序列 
-    */
+    /*
+     * 最长上升子序列
+     */
     public int lengthOfLIS(int[] nums) {
         int[] dp = new int[nums.length];
         dp[0] = 1;

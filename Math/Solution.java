@@ -35,7 +35,7 @@ public class Solution extends SolBase {
         }
         double pm = 6.0 * minutes;
         double ph = 30.0 * hour + (minutes / 60.0) * 30;
-        double abs=Math.abs(pm-ph);
-        return Math.min(abs, 360-abs);
+        double abs = Math.abs(pm - ph);
+        return Math.min(abs, 360 - abs);
     }
 }

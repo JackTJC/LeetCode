@@ -86,9 +86,9 @@ class Solution {
             if (nums[mid] <= left && nums[mid] <= right) {
                 r = mid;
             } else if (nums[mid] >= left && nums[mid] >= right) {
-                l = mid+1;
+                l = mid + 1;
             }
         }
-        return nums[l]+1;
+        return nums[l] + 1;
     }
 }
